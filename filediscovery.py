@@ -14,5 +14,5 @@ def search(path):
     #print(filelist)
     return files
 #files = search(os.path.abspath("/"))
-files = search(os.path.abspath("/home/mgabee/playground"))
+files = search(os.path.abspath(os.path.expanduser("~")+"/playground"))
 print(files)
